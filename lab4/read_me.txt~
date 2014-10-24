@@ -1,0 +1,17 @@
+ * Useful links:
+ *
+ *     http://www.uchobby.com/index.php/2007/11/24/arduino-interrupts/
+ *
+ *     http://www.nongnu.org/avr-libc/user-manual/group__avr__interrupts.html
+ *
+ *     http://www.nongnu.org/avr-libc/user-manual/pages.html
+ *
+ *     http://lists.gnu.org/archive/html/avr-gcc-list/2006-10/msg00042.html
+ *
+ *     http://www.glennsweeney.com/tutorials/interrupt-driven-analog-conversion-with-an-atmega328p
+ *
+ * Comments from the gcc:
+ *     * on the AVR, the hardware globally disables interrupts when an interrupt is executed.
+ *     * The compiler generates function entry and exit sequences suitable for use in an 
+ *       interrupt handler when this attribute is present.
+ */

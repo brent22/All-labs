@@ -1,0 +1,64 @@
+
+
+#ifndef ports_H
+#define	ports_H
+
+    #define f_clk 16000000L
+    #define baud_rate 19200L
+
+    #define LED_PIN 13
+    #define K1_PIN 10
+    #define K2_PIN 11
+
+    #define joy_push 5
+    #define joy_vert A0
+    #define joy_horz A1
+    #define mot_feedback A3
+    
+    
+    
+    
+    
+    
+    
+    
+    //** General Shortcuts *********************************************************
+
+/*! 8-bit shortcut for logic "1" */
+  //  #define ON 0x01
+/*! 8-bit shortcut for logic "0" */
+  //  #define OFF 0x00
+
+
+/*! 8-bit shortcut for logic "1" */
+ //   #define TRUE 0x01
+/*! 8-bit shortcut for logic "0" */
+ //   #define FALSE 0x00
+
+
+/*! 8-bit shortcut for "ClockWise" */
+ //   #define CW 0x01
+/*! 8-bit shortcut for "Counter ClockWise" */
+ //   #define CCW 0x00
+
+
+ /*! Shortcut for the Data Direction aka TRIS register because it hurts my brain every time I have to think about it!" */
+  //  #define INPUT 1
+/*! Shortcut for the TRIS register..." */
+  //  #define OUTPUT 0
+
+    
+/*! Alias for the the Data Direction aka TRIS register I/O pins" */
+  //  #define HI 1
+/*! Shortcut for the TRIS register..." */
+  //  #define LO 0
+    
+
+/*! Null character definition..." */
+ //   #define NULL 0
+
+    
+    
+    
+    
+#endif	
